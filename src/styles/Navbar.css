@@ -1,0 +1,61 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 80vw;
+    padding: 20px 2%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin-left: 7%;
+    border-radius: 20px;
+    background-color: #2228314b;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.11);
+}
+
+a{
+    text-decoration: none;
+    color: #EEEEEE;
+    transition: 0.3s;
+    font-size: 1.5rem;
+    margin-left: 12px;
+}
+
+a:hover{
+    color: #76ABAE;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 470;
+    color: #76ABAE;
+}
+
+.icon{
+    position: relative;
+    color: #EEEEEE;
+    display: flex;
+    font-size: large;
+}
+
+.icon .faq{
+    margin-left: 15px;
+}
+
+.icon:hover{
+    color: #76ABAE;
+}
+
+.icon::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    height: 2px;
+    background: #fff;
+    transition: 0.2s;
+}
+
+.icon:hover::before{
+    background: #76ABAE;
+}

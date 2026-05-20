@@ -1,0 +1,30 @@
+.upper-menu{
+    display: flex;
+    width: 1000px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    padding: 0.5rem;
+    
+}
+
+.modes{
+    display: flex;
+    gap: .85rem;
+    cursor: pointer;
+}
+
+.time-mode{
+    color: #EEE;
+    transition: 0.2s linear;
+}
+
+.time-mode:hover{
+    color: #76ABAE;
+}
+
+.time-mode::selection{
+    color: #76ABAE;
+}

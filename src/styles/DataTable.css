@@ -1,0 +1,39 @@
+table{
+    border: 4px solid rgb(169, 199, 235);
+    border-radius: 20px;
+    height: 200px;
+    /* background-color: rgb(21, 44, 72); */
+}
+
+.table-scroll{
+    display: block;
+    height: 300px;
+    overflow-y: hidden;
+}
+
+th{
+    color: #76ABAE;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 4px solid;
+    border-radius: 18px;
+}
+
+.table-cell{
+    padding: 0 10px;
+    width: 150px;
+}
+
+.table-body{
+    font-size: 20px;
+    padding: 8px 10px;
+    width: 155px;
+    text-align: center;
+}
+
+.table-date{
+    font-size: 16px;
+    padding: 8px 10px;
+    width: 155px;
+    text-align: center;
+}

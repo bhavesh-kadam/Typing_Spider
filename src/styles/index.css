@@ -1,0 +1,88 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.14;
+    font-weight: 400;
+    /* color: #76ABAE; */
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #31363F;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+  }
+  
+  /* a {
+    font-weight: 500;
+    color: #EEEEEE;
+    text-decoration: inherit;
+    transition: 0.3s;
+  }
+  a:hover {
+    color: #76ABAE;
+  } */
+  
+  body {
+    margin: 0;
+    padding: auto;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  
+  
+ 
+  
+  /* @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  } */
+
+  .current{
+    border-left: 2px solid #76ABAE;
+    animation: blink 0.8s ease infinite;
+  }
+  @keyframes blink {
+    50%{
+      border-left-color: #31363F;
+    }
+  }
+
+  .current-right{
+    border-right: 2px solid #76ABAE;
+    animation: blinkRight 0.8s ease infinite;
+  }
+  @keyframes blinkRight {
+    50%{
+      border-left-color: #31363F;
+    }
+  }
+
+
+  .hidden-input{
+    opacity: 0;
+  }
+  
+  ::selection{
+    color: #31363F;
+    background: #76ABAE;
+  }

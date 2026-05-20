@@ -1,0 +1,77 @@
+#root {
+    max-width: 1920px;
+    margin: auto ;
+    text-align: center;
+  }
+  
+  
+  /* @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  } */
+  
+  span{
+    color: #646669;
+  }
+
+  .correct{
+    color: #76ABAE
+  }
+
+  .incorrect{
+    color: #A31D1D;
+  }
+
+  
+  .canvas{
+    display: grid;
+    min-height: 100vh;
+    grid-auto-flow: row;
+    grid-template-rows: auto;
+    gap: 0.5rem;
+    padding: 2rem;
+    width: 100vw;
+    align-items: center;
+    align-content: space-evenly;
+    text-align: center;
+    justify-content: center;
+    user-select: none;
+  }
+
+  .type-box{
+    display: block;
+    max-width: 1300px;
+    height: 100px;
+    margin-left: 5%;
+    margin-right: 10%;
+    overflow: hidden;
+  }
+
+  .words{
+    font-size: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  .word{
+    margin: 5px;
+    padding-right: 2px;
+
+  }
+  
+  .Header{
+    top: 0;;
+  }
+  
